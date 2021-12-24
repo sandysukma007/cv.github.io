@@ -1,0 +1,194 @@
+body {
+    background-color: #EAE5E5;
+    font-family: 'Merriweather', serif;
+
+}
+
+.navbar a:hover {
+    background-color: #EAE5E5;
+    font-size: 20px;
+}
+
+.nav-item .nav-link a {
+    color: teal;
+}
+
+.myheader {
+    margin-top: 30px;
+    color: #4D4D4D;
+}
+
+.myprofile {
+    margin-top: 40px;
+}
+
+.mylink h1 {
+    font-size: 16px;
+    width: 100%;
+    line-height: 100px;
+    height: 100px;
+    color: black;
+    border-radius: 300px;
+    background-color: #E83556;
+    padding-left: 25px;
+}
+
+.mylinka h1 {
+    font-size: 16px;
+    width: 100%;
+    line-height: 100px;
+    height: 100px;
+    color: black;
+    border-radius: 300px;
+    background-color: #61D0D4;
+    padding-left: 25px;
+}
+
+.mylinkb h1 {
+    font-size: 16px;
+    width: 100%;
+    line-height: 100px;
+    height: 100px;
+    color: black;
+    border-radius: 300px;
+    background-color: #D1C926;
+    padding-left: 25px;
+}
+
+.mylink h1 a {
+    color: #FFFCF4;
+}
+
+.mylinka h1 a {
+    color: #FFFCF4;
+}
+
+.mylinkb h1 a {
+    color: #FFFCF4;
+}
+
+.mypicture {
+    padding-left: 10%;
+}
+
+footer {
+    margin-top: 100px;
+    background-color: #E83556;
+    height: fit-content;
+    width: 100%;
+    padding-top: 30px;
+}
+
+.myfooter a {
+    margin-left: 20px;
+    color: white;
+}
+
+i {
+    color: black;
+    font-size: 42px;
+    border-radius: 50%;
+    background-color: #61D0D4;
+    border: 2px solid #61D0D4;
+    border-width: 20px;
+}
+
+.myfooter h2 {
+    margin-left: 20px;
+}
+
+.list-footer {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.myresume {
+    color: #4D4D4D;
+
+}
+
+.myintro {
+    color: #61D0D4;
+    border-radius: 100px;
+    background-color: #4D4D4D;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    padding: 22px 30px 22px 30px;
+}
+
+.mywork {
+    color: #61D0D4;
+    border-radius: 100px;
+    font-size: 16px;
+    padding: 22px 30px 22px 30px;
+    background-color: #4D4D4D;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.mylistfooter ul {
+    list-style-type: none;
+    display: inline;
+}
+
+.mylistfooter ul li {
+    float: left;
+    margin-right: 50px;
+    margin-top: 40px;
+}
+
+.mycontact ul {
+    list-style-type: none;
+    display: inline;
+}
+
+.mycontact ul li {
+    float: left;
+    margin-right: 50px;
+    margin-top: 40px;
+}
+
+
+
+@media (max-width: 576px) {
+    .mylink h1 {
+        width: 200px;
+        padding-left: 0px;
+        text-align: center;
+        margin-left: 25%;
+        border-radius: 300px;
+    }
+
+    .mylinka h1 {
+        width: 200px;
+        padding-left: 0px;
+        text-align: center;
+        margin-left: 25%;
+        border-radius: 300px;
+    }
+
+    .mylinkb h1 {
+        width: 200px;
+        padding-left: 0px;
+        text-align: center;
+        margin-left: 25%;
+        border-radius: 300px;
+    }
+
+    .mypicture {
+        margin-left: 25%;
+        margin-bottom: 20px;
+        padding-left: 0%;
+    }
+
+    .myheader2 {
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .myfollow a {
+        display: block;
+        padding: 0;
+    }
+}
